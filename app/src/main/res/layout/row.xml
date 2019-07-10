@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <ImageView android:layout_width="110dp" android:layout_height="110dp"
+                android:id="@+id/image_view"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/title_view"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#36071B"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrizione"
+            android:textStyle="italic"
+            android:id="@+id/descrizione_view"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Proprietario"
+              android:layout_margin="4dp"
+              android:id="@+id/proprietario_view"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Prezzo"
+              android:textStyle="bold"
+              android:layout_gravity="right"
+              android:layout_marginRight="30dp"
+              android:textColor="#36071B"
+              android:id="@+id/prezzo_view"/>
+    </LinearLayout>
+
+</LinearLayout>
